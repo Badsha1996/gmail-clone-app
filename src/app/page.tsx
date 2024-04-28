@@ -1,5 +1,9 @@
+import Header from "./components/header/Header";
+
 export default function Home() {
-  return <main>Click me</main>;
+  return <main>
+    <Header/>
+  </main>;
 }
 
 
