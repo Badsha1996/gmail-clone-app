@@ -1,10 +1,11 @@
+import Hamburger from "./components/Hamburger/Hamburger";
 import Header from "./components/header/Header";
 
 export default function Home() {
-  return <main>
-    <Header/>
-  </main>;
+  return (
+    <main className="flex w-screen relative">
+      <Hamburger />
+      <Header />
+    </main>
+  );
 }
-
-
-// any design 
