@@ -1,11 +1,9 @@
-import Hamburger from "./components/Hamburger/Hamburger";
-import Header from "./components/header/Header";
+import Sidebar from "./components/sidebar/Sidebar";
 
 export default function Home() {
   return (
-    <main className="flex w-screen relative">
-      <Hamburger />
-      <Header />
+    <main>
+      <Sidebar />
     </main>
   );
 }
